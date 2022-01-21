@@ -1,10 +1,26 @@
+@font-face {
+  font-family: futuraDemi;
+  src: url(../assets/fonts/FuturaPTDemi.otf);
+}
+
+@font-face {
+  font-family: futuraExtraBold;
+  src: url(../assets/fonts/FuturaPTExtraBold.otf);
+}
+
+@font-face {
+  font-family: futuraHeavy;
+  src: url(../assets/fonts/FuturaPTHeavy.otf);
+}
+
+@font-face {
+  font-family: futuraBold;
+  src: url(../assets/fonts/FuturaPTBold.otf);
+}
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
 :root {
-  --colorLightest: white;
-  --colorText: #211f1f;
-  --colorMain: #f9d2cb;
-  --colorSecondary: #a3f4dc;
-  --colorGray: #fafafa;
-  --colorGrayDark: #9c9c9c;
   --spacerSmall: .75rem; /* 12px */
   --spacerRegular: 1rem; /* 16px */
   --spacerBig: 1.88rem; /* 30px */
@@ -12,7 +28,7 @@
   --fontRegular: 1.13rem; /* 18px */
   --fontMedium: 1.25rem; /* 20px */
   --fontBig: 1.75rem; /* 28px */
-  --font: 'Roboto', sans-serif;
-  --fontWeightRegular: 400;
-  --fontWeightBold: 500;
+  --font: 'Source Sans Pro', sans-serif;
+  --futuraExtraBold: 'futuraExtraBold', sans-serif;
+  --futuraBold: 'futuraBold', sans-serif;
 }

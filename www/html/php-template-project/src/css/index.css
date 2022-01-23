@@ -1,0 +1,196 @@
+html {
+  box-sizing: border-box;
+  /*set rem to 18px -> more pleasant reading than 16px*/
+  font-size: 18px;
+}
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  line-height: 1.6;
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__list--item {
+  margin: var(--spacerSmall);
+}
+
+.nav__list--div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+@media (max-width: 767px) {
+  .container{
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__list--logo {
+    font-family: var(--futuraBold);
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  .nav__list--div {
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 0;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    /* position: relative; */
+  }
+
+  .nav__list--item {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .header {
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__image {
+    width: 13.4375rem;
+    height: auto;
+    margin-top: -14rem;
+    z-index: -2;
+  }
+
+  .header__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header__title {
+    font-family: var(--futuraExtraBold);
+    font-size: 4.4375rem;
+    margin: 1rem;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
+  }
+
+  .header__by {
+    font-size: .75rem;
+    margin-top: 0.5rem;
+  }
+
+  .PaulRenner {
+    margin-top: 3rem;
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--beige);
+  }
+
+  .PaulRenner__illuDiv {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .PaulRenner__illuDiv--name {
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__illuDiv--date {
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .PaulRenner__text--lead {
+    width: 80%;
+    margin-top: 2rem;
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__text--body {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ArmySection {
+   font-family: 'UnifrakturCook', cursive;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+  }
+
+  .NaziGermany{
+    background-color: var(--red);
+    height: auto;
+    width: 100%;
+  }
+
+  .NaziGermany__horizontal{
+    height: 100vh;
+    background-color: var(--red);
+  }
+
+  .NaziGermany__text--red, .NaziGermany__text--beige {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NaziGermany__text--red {
+    width: 100%;
+    height: auto;
+    background-color: var(--red);
+    color: white;
+  }
+
+  .NaziGermany__text--beige {
+    width: 100%;
+    height: auto;
+    background-color: var(--beige);
+  }
+
+  .NaziGermany__text--red > p, .NaziGermany__text--beige > p{
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}

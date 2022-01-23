@@ -1,8 +1,15 @@
-import {gsap} from "gsap/gsap-core"
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {gsap} from "gsap"
+import {ScrollToPlugin} from "gsap/ScrollToPlugin";
+import {ScrollTrigger} from "gsap/ScrollTrigger";
 
-export const init = () =>{
-  console.log("scroll test work");
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
-}
+export const snap = () => {
+
+};
+
+export const init = () => {
+  console.log('scroll test work');
+  snap();
+
+};

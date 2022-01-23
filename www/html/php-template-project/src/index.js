@@ -1,4 +1,4 @@
 import './style.css';
-import {init} from './js/scroll_test.js';
+import {snap} from './js/scroll_test.js';
 
-init();
+//snap();

@@ -35,7 +35,9 @@ body {
 }
 
 @media (max-width: 767px) {
-
+  .container{
+    width: 100%;
+  }
   .nav {
     width: 100%;
     background-color: white;
@@ -105,6 +107,9 @@ body {
 
   .PaulRenner {
     margin-top: 3rem;
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,8 +132,10 @@ body {
   }
 
   .PaulRenner__text{
-
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
   .PaulRenner__text--lead {
     width: 80%;
@@ -140,5 +147,50 @@ body {
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .ArmySection {
+   font-family: 'UnifrakturCook', cursive;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+  }
+
+  .NaziGermany{
+    background-color: var(--red);
+    height: auto;
+    width: 100%;
+  }
+
+  .NaziGermany__horizontal{
+    height: 100vh;
+    background-color: var(--red);
+  }
+
+  .NaziGermany__text--red, .NaziGermany__text--beige {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NaziGermany__text--red {
+    width: 100%;
+    height: auto;
+    background-color: var(--red);
+    color: white;
+  }
+
+  .NaziGermany__text--beige {
+    width: 100%;
+    height: auto;
+    background-color: var(--beige);
+  }
+
+  .NaziGermany__text--red > p, .NaziGermany__text--beige > p{
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }

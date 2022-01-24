@@ -14,6 +14,7 @@ html {
 body {
   font-family: var(--font);
   line-height: 1.6;
+  overflow-x:hidden;
 }
 
 .nav__list {
@@ -203,6 +204,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 200%;
+    overflow: hidden;
   }
 
   .NaziGermany__horizontal--div{

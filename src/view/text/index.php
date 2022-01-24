@@ -24,14 +24,36 @@
 </section>
 <section class="NaziGermany">
   <div class="NaziGermany__horizontal">
+    <div class="NaziGermany__horizontal--div  NaziGermany__horizontal--1">
+      <div class="NaziGermany__horizontal--titleDiv">
+        <p class="NaziGermany__horizontal--titleBig">NAZI</p>
+        <p class="NaziGermany__horizontal--titleSmall">GERMANY</p>
+      </div>
+      <div class="NaziGermany__horizontal--swipe">
+        <img src="">
+        <p>Swipe</p>
+      </div>
+    </div>
+    <div class="NaziGermany__horizontal--div NaziGermany__horizontal--2">
+      <div class="NaziGermany__horizontal--2--title">
+        <p class="NaziGermany__horizontal--2--titleRenner">Paul Renner's</p>
+        <p class="NaziGermany__horizontal--2--titleKultur">Kulturbol </br>
+        schewismus?</p>
+      </div>
+      <div class="NaziGermany__horizontal--2--circle">
+        <p>Even before 1932, Renner made his opposition to the Nazis very clear, notably in his book “Kulturbolschewismus?” (Cultural Bolshevism?). He was unable to find a German publisher, so it was published by his Swiss friend Eugen Rentsch.</p>
+      </div>
+    </div>
   </div>
-  <div class="NaziGermany__text--red">
+  <div class="bgContainer">
+  <div class="bgContainer__div NaziGermany__text--red">
     <p><?php echo ($texts[1]->value)?></p>
     <p><?php echo ($texts[2]->value)?></p>
   </div>
-  <div class="NaziGermany__text--beige">
+  <div class="bgContainer__div NaziGermany__text--beige">
     <p><?php echo ($texts[3]->value)?></p>
     <p><?php echo ($texts[4]->value)?></p>
   </div>
+</div>
 </section>
 

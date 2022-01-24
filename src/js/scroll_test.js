@@ -5,8 +5,7 @@ export const snap = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   const sections = gsap.utils.toArray(".NaziGermany__horizontal--div");
-  const heigh= window.innerHeight;
-  console.log(sections)
+  console.log(sections);
   gsap.to(sections, {
     xPercent: -100 * (sections.length - 1),
     ease: "none",
@@ -21,7 +20,7 @@ export const snap = () => {
       //snap: 1 / (sections.length - 1),
       // base vertical scrolling on how wide the container is so it feels more natural.
       //end: "+=1560 bottom",
-      end: "+=350",
+      end: "bottom center",
     },
   });
 };
@@ -52,6 +51,9 @@ tl.to(sections, {
 
 export const init = () => {
   console.log('scroll test work');
+  //test to fix scrolltrigger issue on mobile dev tools
+  window.addEventListener('resize', ScrollTrigger.refresh());
+  //end test fix
   snap();
   bgSwitch();
 

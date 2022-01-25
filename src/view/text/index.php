@@ -23,14 +23,26 @@
   <div class="ArmySection__div--anim">
   <p>Army Army Army Army Army Army</p>
   <div>
-
+    <div class="ArmySection__div--anim2">
+  <p>Army Army Army Army Army Army</p>
+  <div>
+  <div class="ArmySection__div--anim">
+  <p>Army Army Army Army Army Army</p>
+  <div>
   <div class="ArmySection__div--anim2">
+  <p>Army Army Army Army Army Army</p>
+  <div>
+    <div class="ArmySection__div--anim">
   <p>Army Army Army Army Army Army</p>
   <div>
 </section>
 <section class="NaziGermany">
+
   <div class="NaziGermany__horizontal">
     <div class="NaziGermany__horizontal--div  NaziGermany__horizontal--1">
+      <div class="eye">
+        <img class="eye__gif" src="./assets/_main.gif">
+      </div>
       <div class="NaziGermany__horizontal--titleDiv">
         <p class="NaziGermany__horizontal--titleBig">NAZI</p>
         <p class="NaziGermany__horizontal--titleSmall">GERMANY</p>
@@ -62,4 +74,8 @@
   </div>
 </div>
 </section>
-
+<section class="poster">
+<div class="poster__canvas">
+    <img class="test" src="./assets/Renner-mobile.png">
+</div>
+</section>

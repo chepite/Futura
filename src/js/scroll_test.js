@@ -6,6 +6,7 @@ export const snap = () => {
 
   const sections = gsap.utils.toArray(".NaziGermany__horizontal--div");
   console.log(sections);
+
   gsap.to(sections, {
     xPercent: -100 * (sections.length - 1),
     ease: "none",
@@ -56,5 +57,4 @@ export const init = () => {
   //end test fix
   snap();
   bgSwitch();
-
 };

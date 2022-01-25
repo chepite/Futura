@@ -226,6 +226,23 @@ body {
     justify-content: center;
   }
 
+  .eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eye__gif{
+    width: auto;
+    height: 25vh;
+  }
+
+  .NaziGermany__horizontal--eye{
+    position: relative;
+    width: 25%;
+    height: auto;
+  }
+
   .NaziGermany__horizontal--1 {
     color: white;
   }
@@ -279,4 +296,12 @@ body {
     font-family: var(--futuraBold);
 
   }
+
+.poster__canvas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100% ;
+}
 }

@@ -15,7 +15,7 @@
 <body>
   <nav class="nav">
     <ul class="nav__list">
-      <li class="nav__list--logo nav__list--item">Slanted</li>
+      <li class="nav__list--logo nav__list--item"><a href="#">Slanted</a></li>
       <div class="nav__list--div">
       <li class="nav__list--item">Paul Renner</li>
       <li class="nav__list--item">The nazis</li>

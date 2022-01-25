@@ -35,10 +35,19 @@ body {
   margin-right: 3rem;
 }
 
+.hidden {
+  display: none;
+}
+
+.ArmySection__div{
+  margin-top: -2rem;
+}
+
+.ArmySection p {
+  white-space: nowrap
+}
+
 @media (max-width: 767px) {
-
-
-
 
   .container{
     width: 100%;
@@ -99,6 +108,7 @@ body {
     font-family: var(--futuraExtraBold);
     font-size: 4.4375rem;
     margin: 1rem;
+    margin-bottom: 0;
   }
 
   .header__subtitle {
@@ -113,9 +123,9 @@ body {
 
   .PaulRenner {
     margin-top: 3rem;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     display: flex;
     flex-direction: column;
     align-items: center;

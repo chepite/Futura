@@ -20,7 +20,13 @@
 </div>
 </section>
 <section class="ArmySection">
-  <p>Army Army Army Army</p>
+  <div class="ArmySection__div--anim">
+  <p>Army Army Army Army Army Army</p>
+  <div>
+
+  <div class="ArmySection__div--anim2">
+  <p>Army Army Army Army Army Army</p>
+  <div>
 </section>
 <section class="NaziGermany">
   <div class="NaziGermany__horizontal">

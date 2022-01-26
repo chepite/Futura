@@ -1,0 +1,544 @@
+html {
+  box-sizing: border-box;
+  /*set rem to 18px -> more pleasant reading than 16px*/
+  font-size: 18px;
+}
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  line-height: 1.6;
+  overflow-x:hidden;
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__list--item {
+  margin: var(--spacerSmall);
+}
+
+.nav__list--div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+.nav__list--logo{
+  font-size: 2.4rem;
+  margin-left: 1rem;
+  font-family: var(--futuraBold);
+}
+
+.hidden {
+  display: none;
+}
+
+.ArmySection p {
+  white-space: nowrap
+}
+
+  .container{
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 100vh;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__image {
+    width: 13.4375rem;
+    height: auto;
+    margin-top: -14rem;
+    z-index: -2;
+  }
+
+  .header__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header__title {
+    font-family: var(--futuraExtraBold);
+    font-size: 4.4375rem;
+    margin: 1rem;
+    margin-bottom: 0;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .header__by {
+    font-size: .75rem;
+    margin-top: 0.5rem;
+  }
+
+  .desktop__paul{
+    display: flex;
+    height: 100vh;
+    width:100%;
+  }
+  .renner{
+    width: 50%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .jaar__illu{
+    width: 50%;
+    height: 100vh;
+  }
+
+  .PaulRenner {
+     height: 100vh;
+    width: 100%;
+    /* overflow: scroll; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .PaulRenner__illuDiv {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .PaulRenner__illuDiv--name {
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__illuDiv--date {
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__text{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 65%;
+
+  }
+
+  .PaulRenner__text--lead {
+    width: 80%;
+    margin-top: 2rem;
+    font-family: var(--futuraDemi);
+  }
+
+  .PaulRenner__text--body {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ArmySection {
+   font-family: 'UnifrakturCook', cursive;
+    height: 105vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+    overflow: hidden;
+  }
+  .ArmySection__div--anim p, .ArmySection__div--anim2 p{
+    display: block;
+    position: relative;
+    z-index: -1;
+  }
+
+  .bgContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .NaziGermany{
+    background-color: var(--red);
+    height: auto;
+  }
+
+  .NaziGermany__horizontal{
+    height: 100vh;
+    background-color: var(--red);
+    margin-bottom: 3rem;
+  }
+
+  .NaziGermany__text--red, .NaziGermany__text--beige {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .NaziGermany__text--red {
+    /* background-color: var(--red); */
+    color: white;
+  }
+
+  .NaziGermany__text--beige {
+    color: black;
+  }
+
+  .NaziGermany__text--red > p, .NaziGermany__text--beige > p{
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  .NaziGermany__horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200%;
+    overflow: hidden;
+  }
+
+  .NaziGermany__horizontal--div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .eye{
+    display: none;
+  }
+
+  .eye__gif{
+    width: auto;
+    height: 25vh;
+  }
+
+  .NaziGermany__horizontal--eye{
+    position: relative;
+    width: 25%;
+    height: auto;
+  }
+
+  .NaziGermany__horizontal--1 {
+    color: white;
+    /*new*/
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    /*new*/
+  }
+  /*new*/
+  .NaziGermany__horizontal--swipe *{
+    display: none;
+  }
+  /*new*/
+  .NaziGermany__horizontal--titleDiv, .NaziGermany__horizontal--swipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NaziGermany__horizontal--titleBig {
+    font-size: 98px;
+    font-family: var(--futuraBold);
+  }
+
+  .NaziGermany__horizontal--titleSmall {
+    font-size: 60px;
+    font-family: var(--futuraBold);
+  }
+
+  .NaziGermany__horizontal--swipe > p {
+    font-size: 26px;
+    font-family: var(--futuraDemi);
+  }
+
+  /*new*/
+  .NaziGermany__horizontal--2{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .NaziGermany__horizontal--1--portrait{
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  /*end new*/
+
+  .NaziGermany__horizontal--2--title {
+    color: white;
+  }
+
+  .NaziGermany__horizontal--2--circle{
+    background-color: white;
+    border-radius: 100%;
+    width: 35vw;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NaziGermany__horizontal--2--circle > p {
+    width: 26vw;
+  }
+
+  .NaziGermany__horizontal--2--titleRenner{
+    font-size: 1.5rem;
+    font-family: var(--futuraBold);
+  }
+
+  .NaziGermany__horizontal--2--titleKultur {
+    /* font-size: 3.125rem;
+    font-family: var(--futuraBold); */
+    display: none;
+  }
+
+  .NaziGermany__horizontal--2--titleKulturDesktop{
+    font-size: 10rem;
+    font-family: var(--futuraBld);
+  }
+
+  .culture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .culture__protest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .culture__text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .culture__text--text{
+    width: 80%;
+  }
+
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+  .nav {
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__list--logo {
+    font-family: var(--futuraBold);
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  .nav__list--div {
+    width: 100%;
+    /*margin-top: 1rem;*/
+    margin-right: 0;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    /* position: relative; */
+  }
+
+  .nav__list--item {
+    text-align: center;
+    margin: 1rem;
+  }
+
+   .PaulRenner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .bgContainer{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+
+  .bgContainer__div{
+    height: 50%;
+  }
+
+  .NaziGermany__horizontal--1{
+    /*new*/
+    flex-direction: column;
+    align-items: center;
+    /*new*/
+  }
+
+  .NaziGermany__horizontal--2{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NaziGermany__horizontal--swipe *{
+    display: block;
+  }
+
+  .NaziGermany__horizontal--1--portrait{
+    display: none;
+  }
+
+  .NaziGermany__horizontal--2--circle{
+    background-color: white;
+    border-radius: 50%;
+    width: 55vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NaziGermany__horizontal--2--titleKultur {
+    display: block;
+    font-size: 3.125rem;
+    font-family: var(--futuraBold);
+  }
+
+  .NaziGermany__horizontal--2--circle > p {
+    width: 35vw;
+  }
+
+  .eye{
+    display: block;
+  }
+}
+
+  @media (max-width: 767px) {
+  .nav {
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__list--logo {
+    font-family: var(--futuraBold);
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  .nav__list--div {
+    width: 100%;
+    /*margin-top: 1rem;*/
+    margin-right: 0;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    /* position: relative; */
+  }
+
+  .nav__list--item {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .jaar__illu{
+    display: none;
+  }
+
+.NaziGermany__horizontal--2{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bgContainer{
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .renner{
+    width: 100%;
+    height: auto;
+  }
+  .PaulRenner{
+    height: auto;
+  }
+
+  .PaulRenner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .eye{
+    display: block;
+  }
+
+   .NaziGermany__horizontal--1 {
+    /*new*/
+    flex-direction: column;
+    align-items: center;
+    /*new*/
+  }
+
+  .NaziGermany__horizontal--1--portrait{
+    display: none;
+  }
+
+  .NaziGermany__horizontal--swipe *{
+    display: block;
+  }
+
+  .NaziGermany_text--beige{
+    margin-bottom: 2rem;
+    height: auto;
+  }
+}
+

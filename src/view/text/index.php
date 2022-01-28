@@ -10,7 +10,7 @@
 <div class="desktop__paul">
     <img class="jaar__illu" src="./assets/1927.svg">
 
-  <div class="renner">
+  <!-- <div class="renner"> -->
     <section class="PaulRenner">
     <div class="PaulRenner__illuDiv">
     <img class="PaulRenner__illuDiv--image" src="./assets/Renner-mobile.png">
@@ -24,7 +24,7 @@
     </div>
     </div>
   </section>
-  </div>
+  <!-- </div> -->
 </div>
 <section class="ArmySection">
   <div class="ArmySection__div--anim">
@@ -71,14 +71,12 @@
       <img class="NaziGermany__horizontal--1--portrait" src="./assets/hitler_portrait.svg">
     </div>
     <div class="NaziGermany__horizontal--div NaziGermany__horizontal--2">
-
       <div class="NaziGermany__horizontal--2--title">
         <p class="NaziGermany__horizontal--2--titleRenner">Paul Renner's</p>
         <p class="NaziGermany__horizontal--2--titleKultur">Kulturbol </br>
         schewismus?</p>
         <!-- <p class="NaziGermany__horizontal--2--titleKulturDesktop">Kulturbolschewismus?</p> -->
       </div>
-
       <div class="NaziGermany__horizontal--2--circle">
         <p><?php echo $circle ?></p>
       </div>
@@ -111,7 +109,7 @@
 
 <div class="presidential">
   <div class="presidential__graphic">
-
+    <img src="./assets/presidential.svg">
   </div>
   <div class="presidential__text">
   <p><?php echo ($presidential_1) ?></p>

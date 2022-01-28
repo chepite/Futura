@@ -23,9 +23,9 @@
       <div>
     </ul>
   </nav>
-  <div class="container">
+  <!-- <div class="container"> -->
       <?php echo $content;?>
-  </div>
+  <!-- </div> -->
   <?php echo $js; ?>
 </body>
 </html>

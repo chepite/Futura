@@ -1,6 +1,6 @@
-import { gsap } from "gsap";
+import {gsap} from 'gsap';
 
-const textDivider = (texts) =>{
+const textDivider = texts => {
   const even = [];
   const uneven = [];
   for (let i = 0;i < texts.length;i ++) {
@@ -39,22 +39,22 @@ const ArmyInfinite = () => {
   //   repeat: -1,
   // });
   const even = document.querySelector('.ArmySection__div--anim');
-  const evenClone= even.cloneNode(true);
+  const evenClone = even.cloneNode(true);
   gsap
-    .timeline({ repeat: -1, defaults: { ease: "none" } })
-    .to(even.querySelector("p"), { xPercent: -50, duration: 0 })
-    .to(evenClone, { xPercent: 50, duration: 0 })
-    .to(even.querySelector("p"), { xPercent: -150, duration: 5 })
-    .to(evenClone, { xPercent: 150, duration: 5 }, "<");
+    .timeline({repeat: - 1, defaults: {ease: 'none'}})
+    .to(even.querySelector('p'), {xPercent: - 50, duration: 0})
+    .to(evenClone, {xPercent: 50, duration: 0})
+    .to(even.querySelector('p'), {xPercent: - 150, duration: 5})
+    .to(evenClone, {xPercent: 150, duration: 5}, '<');
 
-      const uneven = document.querySelector(".ArmySection__div--anim2");
-      const unevenClone = uneven.cloneNode(true);
-      gsap
-        .timeline({ repeat: -1, defaults: { ease: "none" } })
-        .to(uneven, { xPercent: -50, duration: 0 })
-        .to(unevenClone, { xPercent: 50, duration: 0 })
-        .to(uneven, { xPercent: -150, duration: 5 })
-        .to(evenClone, { xPercent: 150, duration: 5 }, "<");
+  const uneven = document.querySelector('.ArmySection__div--anim2');
+  const unevenClone = uneven.cloneNode(true);
+  gsap
+    .timeline({repeat: - 1, defaults: {ease: 'none'}})
+    .to(uneven, {xPercent: - 50, duration: 0})
+    .to(unevenClone, {xPercent: 50, duration: 0})
+    .to(uneven, {xPercent: - 150, duration: 5})
+    .to(evenClone, {xPercent: 150, duration: 5}, '<');
 
 };
 

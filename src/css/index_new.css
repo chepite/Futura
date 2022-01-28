@@ -320,16 +320,18 @@ body {
   .NaziGermany__horizontal--2--circle{
     background-color: white;
     border-radius: 50%;
-    width: 55vw;
-    height: 55vw;
+    width: 35vw;
+    height: 35vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  /* .NaziGermany__horizontal--2--circle > p {
-    width: inherit/2;
-  } */
+  .NaziGermany__horizontal--2--circle > p {
+    width: 60%;
+    justify-self: center;
+    text-align: center
+  }
 
   .NaziGermany__horizontal--2--titleRenner{
     font-size: 1.5rem;
@@ -495,9 +497,9 @@ body {
 
   .NaziGermany__horizontal--2--circle{
     background-color: white;
-    border-radius: 50%;
-    width: 55vw;
-    height: 55vw;
+    border-radius: 100%;
+    width: 50vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -509,9 +511,9 @@ body {
     font-family: var(--futuraBold);
   }
 
-  .NaziGermany__horizontal--2--circle > p {
+  /* .NaziGermany__horizontal--2--circle > p {
     width: 35vw;
-  }
+  } */
 
   .eye{
     display: block;
@@ -640,6 +642,11 @@ body {
     display: block;
     font-size: 3.125rem;
     font-family: var(--futuraBold);
+  }
+
+  .NaziGermany__horizontal--2--circle{
+    width: 95vw;
+    height: 95vw;
   }
 
   .NaziGermany_text--beige{

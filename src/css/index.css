@@ -35,10 +35,19 @@ body {
   margin-right: 3rem;
 }
 
+.hidden {
+  display: none;
+}
+
+.ArmySection__div{
+  margin-top: -2rem;
+}
+
+.ArmySection p {
+  white-space: nowrap
+}
+
 @media (max-width: 767px) {
-
-
-
 
   .container{
     width: 100%;
@@ -99,6 +108,7 @@ body {
     font-family: var(--futuraExtraBold);
     font-size: 4.4375rem;
     margin: 1rem;
+    margin-bottom: 0;
   }
 
   .header__subtitle {
@@ -113,9 +123,9 @@ body {
 
   .PaulRenner {
     margin-top: 3rem;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,6 +172,7 @@ body {
     background-color: black;
     color: white;
     font-size: 5rem;
+    overflow: hidden;
   }
 
   .NaziGermany{
@@ -216,6 +227,23 @@ body {
     justify-content: center;
   }
 
+  .eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eye__gif{
+    width: auto;
+    height: 25vh;
+  }
+
+  .NaziGermany__horizontal--eye{
+    position: relative;
+    width: 25%;
+    height: auto;
+  }
+
   .NaziGermany__horizontal--1 {
     color: white;
   }
@@ -268,5 +296,30 @@ body {
     font-size: 3.125rem;
     font-family: var(--futuraBold);
 
+  }
+
+  .culture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .culture__protest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .culture__text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .culture__text--text{
+    width: 80%;
   }
 }

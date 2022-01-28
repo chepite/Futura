@@ -9,7 +9,9 @@ class TextController extends Controller {
   public function index() {
     $texts= Text::get();
 
-    $this->set("texts", $texts);
+    foreach($texts as $text){
+      $this->set($text->name, $text->value);
+    }
 
   }
 }

@@ -14,10 +14,10 @@
     "postcss": "^8.3.9",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.1.1",
-    "postcss-preset-env": "^7.2.3",
-    "resolve-url-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "resolve-url-loader": "^4.0.0",
     "style-loader": "^3.3.0",
-    "stylelint-config-devine": "^1.1.6",
+    "stylelint-config-devine": "^2.0.3",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.1"
@@ -32,6 +32,10 @@
   "author": "Frederik Duchi",
   "license": "ISC",
   "dependencies": {
-    "gsap": "^3.9.1"
+    "@lottiefiles/lottie-player": "^1.5.4",
+    "@types/html2canvas": "^1.0.0",
+    "gsap": "^3.9.1",
+    "html2canvas": "^1.4.1",
+    "lottie-web": "^5.8.1"
   }
 }

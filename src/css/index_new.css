@@ -77,29 +77,29 @@ body {
 
   .header__title {
     font-family: var(--futuraExtraBold);
-    font-size: 4.4375rem;
+    font-size: 8rem;
     margin: 1rem;
     margin-bottom: 0;
   }
 
   .header__subtitle {
-    font-size: 1rem;
+    font-size: 2.8rem;
     width: auto;
   }
 
   .header__by {
-    font-size: .75rem;
+    font-size: 1.3rem;
     margin-top: 0.5rem;
   }
 
   .desktop__paul{
     display: flex;
-    height: 100vh;
+    height: auto;
     width:100%;
   }
   .renner{
     width: 50%;
-    height: auto;
+    height: 100vh;
     position: relative;
     z-index: 2;
   }
@@ -138,7 +138,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    width: 65%;
+    width: 100%;
 
   }
 
@@ -155,6 +155,7 @@ body {
   }
 
   .ArmySection {
+    justify-content: center;
    font-family: 'UnifrakturCook', cursive;
     height: 105vh;
     width: 100%;
@@ -218,6 +219,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 200%;
+    justify-content: space-around;
     overflow: hidden;
   }
 
@@ -251,6 +253,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 100vh;
     justify-content: center;
     /*new*/
   }
@@ -283,6 +286,7 @@ body {
   /*new*/
   .NaziGermany__horizontal--2{
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -310,7 +314,7 @@ body {
   }
 
   .NaziGermany__horizontal--2--circle > p {
-    width: 26vw;
+    width: 30vw;
   }
 
   .NaziGermany__horizontal--2--titleRenner{
@@ -319,14 +323,19 @@ body {
   }
 
   .NaziGermany__horizontal--2--titleKultur {
-    /* font-size: 3.125rem;
-    font-family: var(--futuraBold); */
-    display: none;
+    /* font-size: 3.125rem; */
+     font-size: 5rem;
+    font-family: var(--futuraBold);
+    margin-right: 3rem;
+    /* display: none; */
   }
 
   .NaziGermany__horizontal--2--titleKulturDesktop{
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: var(--futuraBld);
+    /*test*/
+    width: 100vw;
+    /*end test*/
   }
 
   .culture{
@@ -347,11 +356,32 @@ body {
   .culture__text{
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 80%;
     margin-top: 3rem;
   }
   .culture__text--text{
+    width: 50%;
+  }
+
+  .culture__text--img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .culture__Square{
+    display: block;
     width: 80%;
+  }
+
+  .presidential{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .presidential__text{
+    width: 50%;
   }
 
 
@@ -385,6 +415,23 @@ body {
   .nav__list--item {
     text-align: center;
     margin: 1rem;
+  }
+
+    .header__title {
+    font-family: var(--futuraExtraBold);
+    font-size: 4.4375rem;
+    margin: 1rem;
+    margin-bottom: 0;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .header__by {
+    font-size: .75rem;
+    margin-top: 0.5rem;
   }
 
    .PaulRenner__text{
@@ -484,6 +531,23 @@ body {
     margin: 1rem;
   }
 
+    .header__title {
+    font-family: var(--futuraExtraBold);
+    font-size: 4.4375rem;
+    margin: 1rem;
+    margin-bottom: 0;
+  }
+
+  .header__subtitle {
+    font-size: 1rem;
+    width: auto;
+  }
+
+  .header__by {
+    font-size: .75rem;
+    margin-top: 0.5rem;
+  }
+
   .jaar__illu{
     display: none;
   }
@@ -539,6 +603,24 @@ body {
   .NaziGermany_text--beige{
     margin-bottom: 2rem;
     height: auto;
+  }
+
+  .culture__text{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .culture__text--img{
+    margin-bottom: 2rem;
+  }
+
+  .culture__text--text{
+    width: 80%;
+  }
+
+  .culture__text--img{
+    width: 80%;
   }
 }
 

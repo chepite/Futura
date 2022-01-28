@@ -4,6 +4,7 @@ import {Navinit} from './js/nav.js';
 import {Armyinit} from './js/army.js';
 //import {posterInit} from './js/poster.js';
 init();
+
 //posterInit();
 Navinit();
 Armyinit();

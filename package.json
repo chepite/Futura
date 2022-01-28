@@ -32,10 +32,6 @@
   "author": "Frederik Duchi",
   "license": "ISC",
   "dependencies": {
-    "@lottiefiles/lottie-player": "^1.5.4",
-    "@types/html2canvas": "^1.0.0",
-    "gsap": "^3.9.1",
-    "html2canvas": "^1.4.1",
-    "lottie-web": "^5.8.1"
+    "gsap": "^3.9.1"
   }
 }

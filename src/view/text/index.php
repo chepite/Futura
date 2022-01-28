@@ -86,12 +86,12 @@
   </div>
   <div class="bgContainer">
   <div class="bgContainer__div NaziGermany__text--red">
-    <p><?php echo ($germany_red--1) ?></p>
-    <p><?php echo ($germany_red--2) ?></p>
+    <p><?php echo ($germany_red_1) ?></p>
+    <p><?php echo ($germany_red_2) ?></p>
   </div>
   <div class="bgContainer__div NaziGermany__text--beige">
-    <p><?php echo ($germany_beige--1) ?></p>
-    <p><?php echo ($germany_beige--2) ?></p>
+    <p><?php echo ($germany_beige_1) ?></p>
+    <p><?php echo ($germany_beige_2) ?></p>
   </div>
 </div>
 </section>

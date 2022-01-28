@@ -10,7 +10,7 @@
 <div class="desktop__paul">
     <img class="jaar__illu" src="./assets/1927.svg">
 
-  <div class="renner">
+  <!-- <div class="renner"> -->
     <section class="PaulRenner">
     <div class="PaulRenner__illuDiv">
     <img class="PaulRenner__illuDiv--image" src="./assets/Renner-mobile.png">
@@ -24,7 +24,7 @@
     </div>
     </div>
   </section>
-  </div>
+  <!-- </div> -->
 </div>
 <section class="ArmySection">
   <div class="ArmySection__div--anim">
@@ -111,7 +111,7 @@
 
 <div class="presidential">
   <div class="presidential__graphic">
-
+    <img src="./assets/presidential.svg">
   </div>
   <div class="presidential__text">
   <p><?php echo ($presidential_1) ?></p>

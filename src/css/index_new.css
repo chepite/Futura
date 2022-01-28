@@ -61,6 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .header__image {
@@ -191,6 +192,7 @@ body {
   .NaziGermany{
     background-color: var(--red);
     height: auto;
+    overflow-x: hidden;
   }
 
   .NaziGermany__horizontal{
@@ -311,7 +313,9 @@ body {
 
   .NaziGermany__horizontal--2--title {
     color: white;
+    margin-right: 0;
   }
+
 
   .NaziGermany__horizontal--2--circle{
     background-color: white;
@@ -617,6 +621,13 @@ body {
     /*new*/
   }
 
+  .NaziGermany__horizontal--2 {
+    /*new*/
+    flex-direction: column;
+    align-items: center;
+    /*new*/
+  }
+
   .NaziGermany__horizontal--1--portrait{
     display: none;
   }
@@ -625,10 +636,18 @@ body {
     display: block;
   }
 
+  .NaziGermany__horizontal--2--titleKultur {
+    display: block;
+    font-size: 3.125rem;
+    font-family: var(--futuraBold);
+  }
+
   .NaziGermany_text--beige{
     margin-bottom: 2rem;
     height: auto;
   }
+
+
 
    /* .culture__protest--image{
     transition: scale(1.5);

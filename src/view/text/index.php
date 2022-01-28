@@ -71,14 +71,12 @@
       <img class="NaziGermany__horizontal--1--portrait" src="./assets/hitler_portrait.svg">
     </div>
     <div class="NaziGermany__horizontal--div NaziGermany__horizontal--2">
-
       <div class="NaziGermany__horizontal--2--title">
         <p class="NaziGermany__horizontal--2--titleRenner">Paul Renner's</p>
         <p class="NaziGermany__horizontal--2--titleKultur">Kulturbol </br>
         schewismus?</p>
         <!-- <p class="NaziGermany__horizontal--2--titleKulturDesktop">Kulturbolschewismus?</p> -->
       </div>
-
       <div class="NaziGermany__horizontal--2--circle">
         <p><?php echo $circle ?></p>
       </div>

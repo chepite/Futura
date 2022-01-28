@@ -393,16 +393,17 @@ body {
   .presidential{
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin-top: 5rem;
   }
   .presidential__graphic{
     margin: 1rem;
+    height: 100%;
   }
 
   .presidential__text{
     margin: 1rem;
-    width: 100%;
+    width: 40%;
   }
 
 
@@ -521,6 +522,13 @@ body {
 
   .culture__protest--image{
     transition: scale(1.5);
+  }
+
+   .culture__text{
+    flex-direction: column-reverse;
+  }
+  .culture__text--img{
+    margin-bottom: 2rem;
   }
 
 

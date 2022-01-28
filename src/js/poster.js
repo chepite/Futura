@@ -1,5 +1,5 @@
-import {gsap} from "gsap"
-import {Draggable} from "gsap/Draggable";
+import {gsap} from 'gsap';
+import {Draggable} from 'gsap/Draggable';
 let canvas;
 
 // const downloadImage = () => {
@@ -12,12 +12,12 @@ let canvas;
 
 export const posterInit = () => {
   // ctx = canvas.getContext("2d");
-gsap.registerPlugin(Draggable)
+  gsap.registerPlugin(Draggable);
   // const download = document.querySelector(".download");
   // download.addEventListener("click", downloadImage);
 
   Draggable.create('.test', {
-    bounds: ".poster__canvas",
+    bounds: '.poster__canvas',
   });
 
 };

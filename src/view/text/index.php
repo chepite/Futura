@@ -124,17 +124,23 @@
   <h2 class="poster__title">Make your own protest poster here</h2>
   <p class="poster__description">As you have read in this longread fonts are commonly used in political situations and have a amazing history behind them.
     But this time you are not protesting for anything political, you are protesting for fonts.
-    You will give the fonts a voice with this poster, to show that a font is not just a font, to get them the acknowledgement they deserve.
+    You will give the fonts a voice with this poster, for example by sharing your poster on instagram, to show that a font is not just a font, to get them the acknowledgement they deserve.
   </p>
   <div class="poster__color">
     <p>Choose your background color</p>
   <input class="color__input" type="color"></input>
   </div>
+        <p class="instructions">Drag the images around, everything in the black box will be visible in your poster.</p>
+
   <section class="poster__div" id="poster">
         <!-- <img class="poster_img" src="./assets/Renner-mobile.png"> -->
+        <div class="poster_images">
         <img class="poster_img" id="hand__image" src="./assets/poster/hand.png">
         <img class="poster_img" id="influence" src="./assets/poster/influence.png">
+        <img class="poster_img" id="shout" src="./assets/poster/shout.png">
+        <img class="poster_img" id="ceci" src="./assets/poster/ceci.png">
 
+        </div>
         <!--put images here-->
   </section>
   <div class="testdownload"></div>

@@ -15,12 +15,17 @@ a {
 .poster__title{
   font-family: var(--futuraDemi);
   font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.poster__description{
+  width: 50%;
   margin-bottom: 2rem;
 }
 
 .poster__div {
-  width: 500px;
-  height: 500px;
+  width: 640px;
+  height: 640px;
   border: 2px solid black;
 
 }
@@ -30,8 +35,27 @@ a {
   height: auto;
 }
 
+.poster__color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.poster__color p{
+  font-family: var(--futuraDemi);
+}
+
+.color__input{
+  margin-left: 2rem;
+  width: 5rem;
+  height: 3rem;
+}
+
 canvas {
   display: none;
+  width: 640;
+  height: 640;
 }
 
 .downloadLink {
@@ -40,9 +64,22 @@ canvas {
   color: white;
   background-color: var(--red);
   border-radius: 5px;
-  width: 128px;
-  height: 36px;
-  text-align: center;
+  width: 16rem;
+  height: 4rem;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hand__image{
+  width: 360px;
+  height: auto;
+}
+
+#influence{
+  width: 480px;
+  height: auto;
 }
 
   @media (min-width: 767px) and (max-width: 1024px) {

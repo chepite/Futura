@@ -122,12 +122,23 @@
 <!--test for poster maker-->
 <section class="poster">
   <h2 class="poster__title">Make your own protest poster here</h2>
+  <p class="poster__description">As you have read in this longread fonts are commonly used in political situations and have a amazing history behind them.
+    But this time you are not protesting for anything political, you are protesting for fonts.
+    You will give the fonts a voice with this poster, to show that a font is not just a font, to get them the acknowledgement they deserve.
+  </p>
+  <div class="poster__color">
+    <p>Choose your background color</p>
+  <input class="color__input" type="color"></input>
+  </div>
   <section class="poster__div" id="poster">
-        <img class="poster_img" src="./assets/Renner-mobile.png">
+        <!-- <img class="poster_img" src="./assets/Renner-mobile.png"> -->
+        <img class="poster_img" id="hand__image" src="./assets/poster/hand.png">
+        <img class="poster_img" id="influence" src="./assets/poster/influence.png">
+
         <!--put images here-->
   </section>
   <div class="testdownload"></div>
-  <a class="downloadLink" href="" download><img class="downloadLink--image" src="" />Download</a>
+  <a class="downloadLink" href="" download="AwesomePoster"><img class="downloadLink--image" src="" />Download your poster!</a>
 </section>
 <!--end test for poster maker-->
 

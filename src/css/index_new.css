@@ -435,8 +435,9 @@ body {
     margin-bottom: 8rem;
   }
   .slanted__intro{
-    width: 65%;
+    width: 30rem;
   }
+  
   .slanted__title{
 
     font-family: var(--futuraDemi);

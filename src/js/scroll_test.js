@@ -16,7 +16,7 @@ export const snap = () => {
       //pin: true,
       start: 'center center',
       //toggleActions: "play complete restart reverse",
-      markers: true,
+      // markers: true,
       scrub: true,
       //snap: 1 / (sections.length - 1),
       // base vertical scrolling on how wide the container is so it feels more natural.
@@ -35,7 +35,7 @@ export const bgSwitch = () => {
       trigger: '.bgContainer',
       pin: true,
       scrub: true,
-      markers: true,
+      // markers: true,
       end: () => `+=${container.offsetHeight}`,
     },
   });

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./style.css">
   <?php echo $css; ?>
@@ -15,11 +15,11 @@
 <body>
   <nav class="nav">
     <ul class="nav__list">
-      <li class="nav__list--logo nav__list--item"><a href="#">Slanted</a></li>
+      <li class="nav__list--logo nav__list--item"><a href="#"><img src="./assets/slanted.png"></a></li>
       <div class="nav__list--div">
-      <li class="nav__list--item">Paul Renner</li>
-      <li class="nav__list--item">The nazis</li>
-      <li class="nav__list--item">Type & Culture</li>
+    <li class="nav__list--item"><a href="#renner">Paul Renner<a></li>
+      <li class="nav__list--item"><a href="#nazi">The nazis</a></li>
+      <li class="nav__list--item"><a href="#culture">Type & Culture</a></li>
       <div>
     </ul>
   </nav>

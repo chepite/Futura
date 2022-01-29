@@ -11,7 +11,7 @@
     <img class="jaar__illu" src="./assets/1927.svg">
 
   <!-- <div class="renner"> -->
-    <section class="PaulRenner">
+    <section class="PaulRenner" id="#renner">
     <div class="PaulRenner__illuDiv">
     <img class="PaulRenner__illuDiv--image" src="./assets/Renner-mobile.png">
     <h2 class="PaulRenner__illuDiv--name">Paul Renner</h2>
@@ -26,7 +26,7 @@
   </section>
   <!-- </div> -->
 </div>
-<section class="ArmySection">
+<section class="ArmySection" id="nazi">
   <div class="ArmySection__div--anim">
   <p><?php echo $army ?></p>
   <div>
@@ -93,7 +93,7 @@
   </div>
 </div>
 </section>
-<section class="culture">
+<section class="culture" id="culture">
 <div class="culture__protest">
   <img class="culture__protest--image" src="./assets/mobile_protest.svg"></img>
 </div>
@@ -118,3 +118,38 @@
 </div>
 </div>
 </section>
+
+<!--test for poster maker-->
+<section class="poster">
+  <h2 class="poster__title">Make your own protest poster here</h2>
+  <section class="poster__div" id="poster">
+        <img class="poster_img" src="./assets/Renner-mobile.png">
+        <!--put images here-->
+  </section>
+  <div class="testdownload"></div>
+  <a class="downloadLink" href="" download><img class="downloadLink--image" src="" />Download</a>
+</section>
+<!--end test for poster maker-->
+
+<section class="slanted">
+  <div class="slanted__intro">
+  <h2 class="slanted__title">Can’t get enough of these longreads?</h2>
+  <p class="slanted__text">Visit the slanted website for more design news or click on an iconic font from the list below to get to know more about it’s history and story.
+</p>
+  </div>
+  <div class="slanted__links">
+
+    <ul class="slanted__links--list">
+    <li class="slanted__links--item">Bembo</li>
+    <li class="slanted__links--item">Caslon</li>
+    <li class="slanted__links--item">Futura</li>
+    <li class="slanted__links--item">clarendon</li>
+    <li class="slanted__links--item">Bodoni</li>
+    </ul>
+
+  <p class="or">OR</p>
+  <p class="slanted__links--item"><a href="https://www.slanted.de/e" target="_blank">www.slanted.de</a></p>
+</div>
+<img class="slanted__logo" src="./assets/slanted.png">
+</section>
+

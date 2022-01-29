@@ -22,28 +22,47 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list--item {
   margin: var(--spacerSmall);
 }
+.nav__list--item a{
+  color: black;
+}
 
 .nav__list--div {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   margin-right: 3rem;
 }
 
 .nav__list--logo{
+  display: flex;
+  justify-content: center;
   font-size: 2.4rem;
   margin-left: 1rem;
   font-family: var(--futuraBold);
 }
 
+.nav__list--logo a{
+  color: black;
+  height: max-content;
+}
+
+.nav__list--logo img{
+  width: 25%;
+  height: auto;
+}
+
 .hidden {
   display: none;
 }
+
+
 
 .ArmySection p {
   white-space: nowrap
@@ -406,6 +425,65 @@ body {
     width: 40%;
   }
 
+  /*Slanted section*/
+  .slanted{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .slanted__intro{
+    width: 65%;
+  }
+  .slanted__title{
+
+    font-family: var(--futuraDemi);
+    font-size: 1.3rem;
+  }
+
+  .slanted__links{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .or{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: var(--futuraBold);
+    font-size: 1.3rem;
+  }
+
+  .slanted__links--item{
+    font-family: var(--futuraDemi);
+    font-size: 1.2rem;
+    transition: font-size .4s, color .4s;
+  }
+
+  .slanted__links--item a{
+    color: black;
+    transition: font-size .4s, color .4s;
+
+  }
+
+  .slanted__links--item:hover{
+    font-family: var(--futuraDemi);
+    font-size: 1.4rem;
+    color: var(--red)
+  }
+
+  .slanted__links--item a:hover{
+    font-size: 1.4rem;
+    color: var(--red)
+
+  }
+
+  .slanted__logo{
+    margin-top: 4rem;
+  }
+
 
   @media (min-width: 767px) and (max-width: 1024px) {
   .nav {
@@ -438,6 +516,9 @@ body {
     text-align: center;
     margin: 1rem;
   }
+  .nav__list--item a{
+  color: white;
+}
 
     .header__title {
     font-family: var(--futuraExtraBold);
@@ -569,6 +650,9 @@ body {
     text-align: center;
     margin: 1rem;
   }
+  .nav__list--item a{
+  color: white;
+}
 
     .header__title {
     font-family: var(--futuraExtraBold);
@@ -689,6 +773,19 @@ body {
   .presidential{
     flex-direction: column;
     align-items: center;
+
   }
+
+  .presidential__text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .presidential__text p {
+    width: 80%;
+  }
+
 }
 

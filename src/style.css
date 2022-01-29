@@ -1,6 +1,8 @@
 @import './css/reset.css';
 @import './css/vars.css';
 @import './css/index_new.css';
+/*test css for poster maker*/
+@import './css/poster.css';
 
 html {
   box-sizing: border-box;

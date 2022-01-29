@@ -1,3 +1,4 @@
+<div class="cursor"><img src="./assets/cursor.png"></div>
 <section class="header">
 <!--img srcset nog maken-->
   <img class="header__image" src="./assets/mobile.svg">

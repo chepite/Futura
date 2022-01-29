@@ -11,6 +11,11 @@ html {
   box-sizing: inherit;
 }
 
+/*bug fixing svg*/
+.culture__protest--image, .culture__Square{
+  font-family: var(--futuraBold);
+}
+
 body {
   font-family: var(--font);
   line-height: 1.6;

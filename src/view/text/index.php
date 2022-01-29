@@ -95,7 +95,7 @@
 </section>
 <section class="culture" id="culture">
 <div class="culture__protest">
-  <img class="culture__protest--image" src="./assets/mobile_protest.svg"></img>
+  <img class="culture__protest--image" src="./assets/protest.svg"></img>
 </div>
 <div class="culture__text">
   <p class="culture__text--text">

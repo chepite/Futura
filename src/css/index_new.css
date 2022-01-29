@@ -12,8 +12,8 @@ html {
 }
 
 /*bug fixing svg*/
-.culture__protest--image, .culture__Square{
-  font-family: var(--futuraBold);
+.culture__protest--image{
+  height: 110vh;
 }
 
 body {
@@ -624,7 +624,7 @@ body {
   }
 
   .culture__protest--image{
-    transition: scale(1.5);
+    transition: scale(0.5);
   }
 
    .culture__text{
@@ -792,8 +792,12 @@ body {
     width: 80%;
   }
 
-  .culture__text--img{
+  /* .culture__text--img{
     width: 80%;
+  } */
+
+  .culture__protest--image{
+    transition: scale(0.25);
   }
 
   .presidential{

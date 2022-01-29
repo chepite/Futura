@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  cursor: url(../assets/cursor.png), auto;
   font-family: var(--font);
   line-height: 1.6;
   overflow-x:hidden;

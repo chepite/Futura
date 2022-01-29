@@ -16,7 +16,9 @@ body {
   line-height: 1.6;
   overflow-x:hidden;
 }
-
+.nav{
+  border-bottom: 2px solid black;
+}
 .nav__list {
   width: 100%;
   display: flex;
@@ -485,6 +487,17 @@ body {
   .slanted__logo{
     margin-top: 4rem;
   }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  footer img{
+    width: 100%;
+  }
+
 
 
   @media (min-width: 767px) and (max-width: 1024px) {

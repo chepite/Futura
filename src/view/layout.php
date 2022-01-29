@@ -25,6 +25,7 @@
   </nav>
   <!-- <div class="container"> -->
       <?php echo $content;?>
+      <footer><img src="./assets/footer.svg"></footer>
   <!-- </div> -->
   <?php echo $js; ?>
 </body>

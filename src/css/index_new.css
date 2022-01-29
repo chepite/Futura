@@ -418,9 +418,11 @@ body {
     margin-top: 5rem;
   }
   .presidential__graphic{
+    display: flex;
+    justify-content: center;
     margin: 1rem;
     height: 100%;
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
   }
 
   .presidential__text{
@@ -435,7 +437,7 @@ body {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
   }
   .slanted__intro{
     width: 30rem;
@@ -632,6 +634,10 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .presidential__graphic{
+    margin-right: 0;
+  }
 }
 
   @media (max-width: 767px) {
@@ -800,6 +806,35 @@ body {
 
   .presidential__text p {
     width: 80%;
+  }
+
+   .presidential__graphic{
+    margin-right: 0;
+  }
+
+   .slanted__intro{
+    width: 80%;
+  }
+
+  .slanted__links--list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .or{
+    margin-bottom: 1rem;
+  }
+
+  .slanted__links{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slanted__logo{
+    width: 50%;
+    height: auto;
   }
 
 }

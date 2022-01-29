@@ -16,7 +16,7 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__list--logo nav__list--item"><a href="#"><img src="./assets/slanted.png"></a></li>
-      <div class="nav__list--div">
+      <div class="nav__list--div hidden">
     <li class="nav__list--item"><a href="#renner">Paul Renner<a></li>
       <li class="nav__list--item"><a href="#nazi">The nazis</a></li>
       <li class="nav__list--item"><a href="#culture">Type & Culture</a></li>

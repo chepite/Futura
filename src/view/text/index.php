@@ -121,16 +121,14 @@
 
 <!--test for poster maker-->
 <section class="poster">
-  <h2 class="poster__title">Make your own protest poster here</h2>
-  <p class="poster__description">As you have read in this longread fonts are commonly used in political situations and have a amazing history behind them.
-    But this time you are not protesting for anything political, you are protesting for fonts.
-    You will give the fonts a voice with this poster, for example by sharing your poster on instagram, to show that a font is not just a font, to get them the acknowledgement they deserve.
+  <h2 class="poster__title"><?php echo ($poster_title) ?></h2>
+  <p class="poster__description"><?php echo ($poster_description) ?>
   </p>
   <div class="poster__color">
     <p>Choose your background color</p>
   <input class="color__input" type="color"></input>
   </div>
-        <p class="instructions">Drag the images around, everything in the black box will be visible in your poster.</p>
+        <p class="instructions"><?php echo ($poster_instructions) ?></p>
 
   <section class="poster__div" id="poster">
         <!-- <img class="poster_img" src="./assets/Renner-mobile.png"> -->
@@ -150,8 +148,8 @@
 
 <section class="slanted">
   <div class="slanted__intro">
-  <h2 class="slanted__title">Can’t get enough of these longreads?</h2>
-  <p class="slanted__text">Visit the slanted website for more design news or click on an iconic font from the list below to get to know more about it’s history and story.
+  <h2 class="slanted__title"><?php echo ($slanted_title) ?></h2>
+  <p class="slanted__text"><?php echo ($slanted_text) ?>
 </p>
   </div>
   <div class="slanted__links">

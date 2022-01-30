@@ -11,7 +11,7 @@
     <img class="jaar__illu" src="./assets/1927.svg">
 
   <!-- <div class="renner"> -->
-    <section class="PaulRenner" id="#renner">
+    <section class="PaulRenner" id="renner">
     <div class="PaulRenner__illuDiv">
     <img class="PaulRenner__illuDiv--image" src="./assets/Renner-mobile.png">
     <h2 class="PaulRenner__illuDiv--name">Paul Renner</h2>
